@@ -10,10 +10,10 @@ This dataset combines the raw count of first names of male and female babies thr
 -Canada: 1918 to 2018
 -Australia: 1944 to 2019
 
--US: https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data
--UK: https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/bulletins/babynamesenglandandwales/previousReleases
--Canada: https://www2.gov.bc.ca/gov/content/life-events/statistics-reports/bc-s-most-popular-baby-names
--Australia: https://data.gov.au/dataset/ds-sa-9849aa7f-e316-426e-8ab5-74658a62c7e6/details?q=
+-US: https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data \n
+-UK: https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/bulletins/babynamesenglandandwales/previousReleases \n
+-Canada: https://www2.gov.bc.ca/gov/content/life-events/statistics-reports/bc-s-most-popular-baby-names \n
+-Australia: https://data.gov.au/dataset/ds-sa-9849aa7f-e316-426e-8ab5-74658a62c7e6/details?q= \n
 
 
 The dataset came with 4 columns of information. 
