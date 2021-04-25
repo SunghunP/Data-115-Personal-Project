@@ -31,6 +31,7 @@ First of all, since the data did not come with any years or any timeframes of ea
 
 # Visualization
 Since the dataset was ordered by number of people having a certain name, we could see from just using head(df) that James had the most popular name. with over 5.3 million people. 
+![Main](https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/popular.png)
 
 # Analysis
 
