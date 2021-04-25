@@ -1,0 +1,99 @@
+---
+title: "name_data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r name}
+library("tidyverse")
+name_df <- read.csv("name_gender_dataset.csv")
+summary(name_df)
+head(name_df)
+```
+```{r sorting}
+#Create a list of the alphabet to iterate through. 
+library(dplyr)
+library(stringr)
+
+
+name_df %>%
+  rowwise() %>%
+  mutate(initial = str_sub(ï..Name, 1L, 1L)) %>%
+  group_by(initial) %>%
+  summarise(count = sum(Count, na.rm = TRUE))
+
+letter_df <- read.csv("Count by letter.csv")
+head(letter_df)
+
+#variation of names
+sum(grepl('^[A]', name_df$ï..Name))
+
+variation_letter_df <- read.csv("variation by letter.csv")
+head(variation_letter_df)
+```
+
+```{r split}
+#split the initial dataframe into male and female dataframes.
+male_name_df <- subset(name_df, Gender == "M")
+female_name_df <- subset(name_df, Gender == "F")
+ 
+ male_name_df %>%
+   rowwise() %>%
+   mutate(initial = str_sub(ï..Name, 1L, 1L)) %>%
+   group_by(initial) %>%
+   summarise(count = sum(Count, na.rm = TRUE))
+
+female_name_df %>%
+  rowwise() %>%
+  mutate(initial = str_sub(ï..Name, 1L, 1L)) %>%
+  group_by(initial) %>%
+  summarise(count = sum(Count, na.rm = TRUE))
+
+male_letter_df <- read.csv("male Count by letter.csv")
+female_letter_df <- read.csv("female Count by letter.csv")
+
+head(male_letter_df, 26)
+head(female_letter_df, 26)
+
+var_count_df <- read.csv("var_count.csv")
+```
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+library("ggplot2")
+
+barplot(letter_df$count,names=letter_df$initial, main = "Full count", xlab = "Initial", ylab = "# of people")
+barplot(female_letter_df$count,names=letter_df$initial, main = "Female Count", xlab = "Initial", ylab = "# of people")
+barplot(male_letter_df$count,names=letter_df$initial, main = "Male Count", xlab = "Initial", ylab = "# of people")
+
+barplot(variation_letter_df$count,names=letter_df$initial, main = "Full variation", xlab = "Initial", ylab = "# of different names")
+
+plot(var_count_df$variation,var_count_df$count)
+
+ggplot(var_count_df, aes(x = variation, y = count)) +
+    geom_text(aes(label = initial), size = 4)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r top 100 names}
+name_df %>% slice(1:100)
+```
+
+
+
+
