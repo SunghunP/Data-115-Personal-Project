@@ -48,4 +48,14 @@ when we look at the counts of the Female and Male names, we can see why these 3 
     <td><img src= "https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/fec2.png"></td>
   </tr>
 </table>
-# Final thoughts
+
+We can see from the graphs that the most dominating letter to have for first name was J, while females had a bit better distribution with A, M and J, taking a sizable lead over the others. 
+
+Next, I wanted to know if the number of names had anything to do with why these three letters in particular were so popular. 
+
+![Full var](https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/fullvar1.png)
+
+With the number of variations of names startin with the letters A, M and J being so high, we can assume that this might be a possiblity to why more people tend to gravitate towards these letters. There are obvisouly social, cultural, and other societal factors that come into play when a parent chooses a name for a child, having more options might be a reason why there are so many people that start with A, J, and M.
+
+![var vs count](https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/var%20v%20count1.png)
+
