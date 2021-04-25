@@ -39,6 +39,13 @@ Since that had changed my motivation had changed to see which letter was the mos
 
 ![Full count](https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/fullcount1.png)
 
-We can see from this bar graph that J took the lead for most number of people having that first initial in their first name. 
+We can see from this bar graph that J took the lead for most number of people having that first initial in their first name with over 46.7 million people having a J name. Two other letters seem to stick out as A and M were close behind.
+when we look at the counts of the Female and Male names, we can see why these 3 are in the lead.
 
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/malecount1.png"></td>
+    <td><img src= "https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/femalecount1.png"></td>
+  </tr>
+</table>
 # Final thoughts
