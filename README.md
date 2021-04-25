@@ -44,8 +44,8 @@ when we look at the counts of the Female and Male names, we can see why these 3 
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/malecount1.png"></td>
-    <td><img src= "https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/femalecount1.png"></td>
+    <td><img src="https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/mc2.png"></td>
+    <td><img src= "https://raw.githubusercontent.com/SunghunP/Data-115-Personal-Project/main/Figures/fec2.png"></td>
   </tr>
 </table>
 # Final thoughts
