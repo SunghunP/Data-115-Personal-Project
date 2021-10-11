@@ -21,7 +21,7 @@ This dataset combines the raw count of first names of male and female babies thr
 
 
 The dataset came with 4 columns of information. 
-1. Name, the name that is in question (string).
+1. Name, (string).
 2. Gender, (M/F) (string)
 3. Count, the number of people with the name (integer). 
 4. probability, the percentage of people with the name compared to every other name (float).
