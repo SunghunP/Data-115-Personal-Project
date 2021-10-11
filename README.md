@@ -49,7 +49,7 @@ when we look at the counts of the Female and Male names, we can see why these 3 
   </tr>
 </table>
 
-We can see from the graphs that the most dominating letter to have for first name was J, while females had a bit better distribution with A, M and J, taking a sizable lead over the others. 
+We can see from the graphs that the most dominating letter to have for first name was J, while females had a more even distribution with A, M and J, taking a sizable lead over the other letters. 
 
 Next, I wanted to know if the number of names had anything to do with why these three letters in particular were so popular. 
 
@@ -63,4 +63,4 @@ With the visualization above, there does seem to be a positive correlation to th
 Additionally, the least popular names seem to have the least variation. Looking at the bottom 3 letters by count and variation we have Q, X, and U. These might be the least popular and have the least variance because there are less ways of pronouncing them in English speaking countries. While letters like J have multiple ways of pronunciation. This might also be a reason why each letter is popular or unpopular. However, without more data we cannot possibly know.
 
 # Descriptions of Code and Materials
-THe raw data was collected from the UCI database and is uploaded into the Raw Data file in csv form. THe other datasets that were processed and used for visualization was also uploaded as csv files onto the Processed data folder. The Rmarkdown file used to make make the cleaning, visualization, and other modifications to the dataset is uploaded onto the main page as a Rmd file called name_data. 
+The raw data was collected from the UCI database and is uploaded into the Raw Data file in csv form. THe other datasets that were processed and used for visualization was also uploaded as csv files onto the Processed data folder. The Rmarkdown file used to make make the cleaning, visualization, and other modifications to the dataset is uploaded onto the main page as a Rmd file called name_data. 
